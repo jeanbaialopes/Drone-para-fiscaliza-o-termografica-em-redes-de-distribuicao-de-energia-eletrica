@@ -28,7 +28,7 @@ def detect_fn(image):
     detections = model(input_tensor)
     return detections
 
-cap = cv2.VideoCapture(1)  
+cap = cv2.VideoCapture(0)  
 
 tracking = False
 tracker = None
